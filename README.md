@@ -62,25 +62,6 @@ Durante el desarrollo de los diagramas se utilizan principalmente:
 * **`<<include>>`:** indica que un caso de uso necesita ejecutar obligatoriamente otro.
 * **`<<extend>>`:** representa un comportamiento adicional que puede ocurrir dependiendo de una situación.
 
-## Estructura del repositorio
-
-```text
-lab4software/
-│
-├── diagramas/
-│   ├── CDU_General.drawio
-│   ├── CDU_RegistrarPedido.drawio
-│   ├── CDU_VerificarDisponibilidad.drawio
-│   ├── CDU_AnularPedido.drawio
-│   ├── CDU_PrepararComida.drawio
-│   ├── CDU_ObtenerTotal.drawio
-│   ├── CDU_RegistrarCobro.drawio
-│   ├── CDU_AdministrarCarta.drawio
-│   └── CDU_ConsultarVentas.drawio
-│
-├── text.txt
-└── README.md
-```
 
 ## Herramientas utilizadas
 
