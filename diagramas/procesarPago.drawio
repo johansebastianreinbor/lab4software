@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0">
+  <diagram id="procesar_cobro" name="Procesar Cobro">
+    <mxGraphModel dx="900" dy="650" grid="1" gridSize="10"
+      guides="1" tooltips="1" connect="1" arrows="1" fold="1"
+      page="1" pageScale="1" pageWidth="827" pageHeight="1169"
+      math="0" shadow="0">
+
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Actor: Mesero -->
+        <mxCell id="actor1" parent="1"
+          style="shape=umlActor;
+          verticalLabelPosition=bottom;
+          verticalAlign=top;
+          html=1;
+          fontSize=14;
+          fontStyle=1;"
+          value="Atendente"
+          vertex="1">
+          <mxGeometry height="65" width="35" x="80" y="210" as="geometry"/>
+        </mxCell>
+
+        <!-- Actor: Cliente -->
+        <mxCell id="actor2" parent="1"
+          style="shape=umlActor;
+          verticalLabelPosition=bottom;
+          verticalAlign=top;
+          html=1;
+          fontSize=14;
+          fontStyle=1;"
+          value="Consumidor"
+          vertex="1">
+          <mxGeometry height="65" width="35" x="80" y="430" as="geometry"/>
+        </mxCell>
+
+        <!-- Caso de uso -->
+        <mxCell id="uc1" parent="1"
+          style="ellipse;
+          whiteSpace=wrap;
+          html=1;
+          fillColor=#fff2cc;
+          strokeColor=#d6b656;
+          strokeWidth=2;
+          fontSize=14;
+          fontStyle=1;"
+          value="Procesar Cobro"
+          vertex="1">
+          <mxGeometry height="80" width="170" x="360" y="320" as="geometry"/>
+        </mxCell>
+
+        <!-- Asociación Atendente -->
+        <mxCell id="line1" edge="1" parent="1"
+          source="actor1"
+          target="uc1"
+          style="edgeStyle=orthogonalEdgeStyle;
+          rounded=1;
+          orthogonalLoop=1;
+          jettySize=auto;
+          html=1;
+          strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Asociación Consumidor -->
+        <mxCell id="line2" edge="1" parent="1"
+          source="actor2"
+          target="uc1"
+          style="edgeStyle=orthogonalEdgeStyle;
+          rounded=1;
+          orthogonalLoop=1;
+          jettySize=auto;
+          html=1;
+          strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
